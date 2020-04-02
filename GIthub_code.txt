@@ -1,0 +1,19 @@
+…or create a new repository on the command line
+
+echo "# gis" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/thabetaldabbas/gis.git
+git push -u origin master
+
+
+git config --global user.name "thabet aldabbas"
+git config user.email "thabetaldabbas123@yahoo.com"
+
+
+
+…or push an existing repository from the command line
+
+git remote add origin https://github.com/thabetaldabbas/gis.git
+git push -u origin master
